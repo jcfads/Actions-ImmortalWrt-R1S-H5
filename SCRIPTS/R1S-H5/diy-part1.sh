@@ -14,6 +14,6 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
  Add a feed source
-sed -i '$a src-git lienol https://github.com/kenzok8/small-package' feeds.conf.default
+#sed -i '$a src-git lienol https://github.com/kenzok8/small-package' feeds.conf.default
 #git clone https://github.com/small-5/luci-app-adblock-plus package/luci-app-adblock-plus
-git clone https://github.com/kenzok8/small-package package/1
+git clone https://github.com/kenzok8/small-package package/
